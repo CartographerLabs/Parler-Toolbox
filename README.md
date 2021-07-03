@@ -13,11 +13,11 @@ A repository of scripts and tooling for the processing of Parler social media da
 │ Index     │           │ │     │Index Posts│   │ Splitting   │
 │ Users To A├───────────┼─┴─────►To A       ├───► Dataset     │
 │ Database  │           │       │Database   │   │             │
-└───────────┘           │       └─────┬─────┘   └─────────────┘
-                        │             │
-                  ┌─────▼────┐  ┌─────▼─────┐
-                  │Date      │  │Hashtag    │
-                  │Frequency │  │Bootstrapp-│
+└───────────┘           │       └─────┬─────┘   └──────▲──────┘
+                        │             │                │
+                  ┌─────▼────┐  ┌─────▼─────┐          │
+                  │Date      │  │Hashtag    │          │
+                  │Frequency ◄──┤Bootstrapp-├──────────┘
                   │Analysis  │  │ing        │
                   └──────────┘  └───────────┘
 ```
