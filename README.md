@@ -1,4 +1,4 @@
-# Parler Toolbox
+# Parler Toolbox 🔎 
 A repository of scripts and tooling for the processing of Parler social media data for the purpose of academic research.
 
 ## Tooling Structure
