@@ -1,5 +1,5 @@
 # Parler Toolbox 🔎 
-A repository of scripts and tooling for the processing of Parler social media data for the purpose of academic research. This scripts in this repository may be rough around the edges as they've been designed as quick approaches to achieve a specific task.
+A repository of scripts and tooling for the processing of Parler social media data for the purpose of academic research. The scripts in this repository may be rough around the edges as they've been designed as quick approaches to achieve a specific task.
 
 ## 📈 Tooling Structure 
 ![Tooling Structure](diagram.jpg "Tooling Structure")
