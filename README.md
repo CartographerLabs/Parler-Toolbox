@@ -2,7 +2,7 @@
 A repository of scripts and tooling for the processing of Parler social media data for the purpose of academic research.
 
 ## Tooling Structure
-![Tooling Structure](https://raw.githubusercontent.com/CartographerLabs/Parler-Toolbox/main/diagram.jpg?token=AG46WRTDOQGTQI5QABGKED3A4FR7K "Tooling Structure")
+![Tooling Structure](diagram.jpg "Tooling Structure")
 
 
 ## Parler Data
