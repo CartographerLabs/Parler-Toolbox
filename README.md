@@ -78,8 +78,8 @@ This tooling iterates over the Parler posts and identifies the frequency of extr
 ```JSON
   "2020-8": {
     "total": 7178205,
-    "extreamist": 1138631,
-    "non-extreamist": 6039574
+    "extremist": 1138631,
+    "non-extremist": 6039574
   },
 ...
 ```
