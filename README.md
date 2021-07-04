@@ -2,25 +2,8 @@
 A repository of scripts and tooling for the processing of Parler social media data for the purpose of academic research.
 
 ## Tooling Structure
-```
-┌───────────┐       ┌──────────┐
-│ Parler    │       │Parler    │
-│ User JSON │       │Posts JSON│
-└─────┬─────┘       └───┬─┬────┘
-      │                 │ │
-      │                 │ │
-┌─────▼─────┐           │ │     ┌───────────┐   ┌─────────────┐
-│ Index     │           │ │     │Index Posts│   │ Splitting   │
-│ Users To A├───────────┼─┴─────►To A       ├───► Dataset     │
-│ Database  │           │       │Database   │   │             │
-└───────────┘           │       └─────┬─────┘   └──────▲──────┘
-                        │             │                │
-                  ┌─────▼────┐  ┌─────▼─────┐          │
-                  │Date      │  │Hashtag    │          │
-                  │Frequency ◄──┤Bootstrapp-├──────────┘
-                  │Analysis  │  │ing        │
-                  └──────────┘  └───────────┘
-```
+![Tooling Structure](https://raw.githubusercontent.com/CartographerLabs/Parler-Toolbox/main/diagram.jpg?token=AG46WRTDOQGTQI5QABGKED3A4FR7K "Tooling Structure")
+
 
 ## Parler Data
 The tooling in this repository is not designed to actively scrape or harvest data from the Parler social network, instead it builds of the research (and dataset provided) by Aliapoulios et al - called [An Early Look at the Parler Online Social Network](https://arxiv.org/pdf/2101.03820.pdf). The data provided by this resarch is broken down into two sets of json files; users and posts. Each set includes multiple Json files that contain several of each set.
