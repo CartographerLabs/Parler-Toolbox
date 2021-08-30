@@ -108,4 +108,4 @@ This tooling iterates through the Parler post Json files (set in the ```folder_o
 **Script:** *split-dataset.py*
 
 Tooling has also been created for the splitting posts into two separate CSV files depending on if the post contains at least 10% of the hashtags included in a text file. 
-This tooling is provided the ```output-hashtags.txt``` file via the ```keywords_location``` variable and the location of the Parler post database via the ```db``` variable. This tooling creates the files ```extreamist-messages.csv``` and ```non-extreamist-messages.csv```.
+This tooling is provided the ```output-hashtags.txt``` file via the ```keywords_location``` variable and the location of the Parler post database via the ```db``` variable. This tooling creates the files ```extreamist-messages.csv``` and ```non-extreamist-messages.csv```. This script will also split the data based on frequencies so after reading the ```date-freq.json``` file it will split the data so that each set contains the same percentage (or closest fit) as seen in that frequency file.
